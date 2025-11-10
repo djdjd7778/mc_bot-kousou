@@ -1,5 +1,8 @@
-
-
+botを作成
+```txt
+/npc create PvPKitBot
+```
+↓を実行
 ```txt
 # ホットバー 0-8
 /npc cmdadd -c console -t right replaceitem entity %player% slot.hotbar.0 minecraft:diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5},{id:"minecraft:knockback",lvl:2}]} 1
