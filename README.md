@@ -40,9 +40,5 @@
 /npc cmdadd -c console -t right replaceitem entity %player% slot.inventory.33 minecraft:potion{Potion:"minecraft:healing"} 2
 /npc cmdadd -c console -t right replaceitem entity %player% slot.inventory.34 minecraft:cobblestone 64
 /npc cmdadd -c console -t right replaceitem entity %player% slot.inventory.35 minecraft:stone_sword 1
+
 ```
-
-
-
-もし希望なら、私は **この36コマンドをさらに1行にまとめて「一括実行可能なシングルコマンドブロック用」** に変換もできます。
-作りますか？
