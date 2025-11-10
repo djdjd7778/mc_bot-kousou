@@ -1,4 +1,6 @@
-"""
+
+
+```txt
 # ホットバー 0-8
 /npc cmdadd -c console -t right replaceitem entity %player% slot.hotbar.0 minecraft:diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5},{id:"minecraft:knockback",lvl:2}]} 1
 /npc cmdadd -c console -t right replaceitem entity %player% slot.hotbar.1 minecraft:stone 64
@@ -38,4 +40,9 @@
 /npc cmdadd -c console -t right replaceitem entity %player% slot.inventory.33 minecraft:potion{Potion:"minecraft:healing"} 2
 /npc cmdadd -c console -t right replaceitem entity %player% slot.inventory.34 minecraft:cobblestone 64
 /npc cmdadd -c console -t right replaceitem entity %player% slot.inventory.35 minecraft:stone_sword 1
-"""
+```
+
+
+
+もし希望なら、私は **この36コマンドをさらに1行にまとめて「一括実行可能なシングルコマンドブロック用」** に変換もできます。
+作りますか？
